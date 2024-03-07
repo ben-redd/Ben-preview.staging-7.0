@@ -1,5 +1,5 @@
 steps:
-  STG_NATION1-ed5ce4e9-cbbe-4a91-a642-8a0cde07368a:
+  STG_NATION1_edit-ed5ce4e9-cbbe-4a91-a642-8a0cde07368a:
     operation:
       config:
         insertStrategy: INSERT
@@ -75,9 +75,9 @@ steps:
                 nodeName: STG_NATION
             join:
               joinCondition: FROM {{ ref('DESTINATION', 'STG_NATION') }} "STG_NATION"
-            name: STG_NATION1
+            name: STG_NATION1_edit
             noLinkRefs: []
-      name: STG_NATION1
+      name: STG_NATION1_edit
       overrideSQL: false
       schema: ""
       sqlType: Stage
