@@ -1,4 +1,4 @@
-defaultStorageMapping: DESTINATION
+defaultStorageMapping: SOURCE
 installedPackages: {}
 jobs: {}
 locations: {}
