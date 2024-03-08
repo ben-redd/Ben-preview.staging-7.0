@@ -1472,7 +1472,7 @@ stepTypes:
 subgraphs:
   Subgraph-2:
     id: "2"
-    name: subgraph a
+    name: subgraph c
     steps:
       - 36cfdbc3-4270-46dd-90c6-49a83997d9ed
       - ed5ce4e9-cbbe-4a91-a642-8a0cde07368a
