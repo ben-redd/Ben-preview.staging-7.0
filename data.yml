@@ -6,7 +6,17 @@ jobs:
     id: 2
     includeSelector: "{ location: DESTINATION name: STG_NATION } OR { location: DESTINATION name: STG_NATION1 } OR { location: SOURCE name: NATION }"
     name: CD-9164 Job
-locations: {}
+locations:
+  DESTINATION:
+    mappingDefinitions:
+      "2":
+        database: BEN_EDW
+        schema: SCHEMA_3
+  SOURCE:
+    mappingDefinitions:
+      "2":
+        database: COALESCE_SAMPLE_DATABASE
+        schema: TPCH_SF001
 macros: {}
 packages: {}
 projects: {}
