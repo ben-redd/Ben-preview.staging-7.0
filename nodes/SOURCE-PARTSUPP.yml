@@ -2,7 +2,7 @@ fileVersion: 1
 id: ec4faa2b-7b9a-4212-b126-235adce4742a
 name: PARTSUPP
 operation:
-  database: ""
+  database: COALESCE_SAMPLE_DATABASE
   dataset: ""
   deployEnabled: true
   description: ""
@@ -87,7 +87,7 @@ operation:
     join:
       joinCondition: FROM {{ ref('SOURCE', 'PARTSUPP') }}
   name: PARTSUPP
-  schema: ""
+  schema: TPCH_SF001
   sqlType: Source
   table: PARTSUPP
   type: sourceInput

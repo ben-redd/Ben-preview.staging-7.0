@@ -2,7 +2,7 @@ fileVersion: 1
 id: dba2520f-6862-41a6-8e5d-c0aa675176c5
 name: ORDERS
 operation:
-  database: ""
+  database: COALESCE_SAMPLE_DATABASE
   dataset: ""
   deployEnabled: true
   description: |-
@@ -150,7 +150,7 @@ operation:
     join:
       joinCondition: FROM {{ ref('SOURCE', 'ORDERS') }}
   name: ORDERS
-  schema: ""
+  schema: TPCH_SF001
   sqlType: Source
   table: ORDERS
   type: sourceInput

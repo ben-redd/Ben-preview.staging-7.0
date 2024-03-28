@@ -2,7 +2,7 @@ fileVersion: 1
 id: 8a33e887-3f7a-44c7-a8d7-e81a8be9bcf5
 name: LINEITEM
 operation:
-  database: ""
+  database: COALESCE_SAMPLE_DATABASE
   dataset: ""
   deployEnabled: true
   description: ""
@@ -259,7 +259,7 @@ operation:
     join:
       joinCondition: FROM {{ ref('SOURCE', 'LINEITEM') }}
   name: LINEITEM
-  schema: ""
+  schema: TPCH_SF001
   sqlType: Source
   table: LINEITEM
   type: sourceInput
