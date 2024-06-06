@@ -115,22 +115,6 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 7e3d121d-12a7-4493-8f8a-8d00edf44a51
-          stepCounter: d28d9106-2f72-42c1-ac10-edd795639260
-        config: {}
-        dataType: VARCHAR(10)
-        description: ""
-        name: C_MKTSEGMENT
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 2a701609-6ac0-4809-b6dc-de1ce467e31d
-                stepCounter: a14b8996-8ba2-4333-88a0-bafb905f786a
-            transform: ""
-          - columnReferences: []
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
           columnCounter: 092a8a75-aa91-4080-9783-3c5a28ada709
           stepCounter: d28d9106-2f72-42c1-ac10-edd795639260
         config: {}
