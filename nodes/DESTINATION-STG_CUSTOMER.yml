@@ -99,22 +99,6 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 1d48a5d2-16bc-44f0-92aa-502460315724
-          stepCounter: d28d9106-2f72-42c1-ac10-edd795639260
-        config: {}
-        dataType: NUMBER(12,2)
-        description: ""
-        name: C_ACCTBAL
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: f92b91ce-2d3c-4507-aba6-7f4e6d0f4841
-                stepCounter: a14b8996-8ba2-4333-88a0-bafb905f786a
-            transform: ""
-          - columnReferences: []
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
           columnCounter: 092a8a75-aa91-4080-9783-3c5a28ada709
           stepCounter: d28d9106-2f72-42c1-ac10-edd795639260
         config: {}
