@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "6"
+mappingDefinitions:
+  DESTINATION:
+    database: BEN_EDW
+    schema: PREVIEW_STAGING_MANAGED_ENV
+  SOURCE:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: TPCH_SF001
+name: Managed Schema ENV
+type: Environment

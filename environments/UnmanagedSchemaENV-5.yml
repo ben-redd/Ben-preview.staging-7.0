@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "5"
+mappingDefinitions:
+  DESTINATION:
+    database: BEN_EDW
+    schema: PREVIEW_STAGING_UNMANAGED_ENV
+  SOURCE:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: TPCH_SF001
+name: Unmanaged Schema ENV
+type: Environment
