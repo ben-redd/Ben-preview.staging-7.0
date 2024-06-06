@@ -6,12 +6,12 @@ operation:
     insertStrategy: INSERT
     postSQL: ""
     preSQL: ""
-    testsEnabled: true
+    testsEnabled: false
     truncateBefore: true
   database: ""
   deployEnabled: true
   description: ""
-  isMultisource: false
+  isMultisource: true
   locationName: DESTINATION
   materializationType: table
   metadata:
@@ -31,6 +31,8 @@ operation:
               - columnCounter: 60fff65c-e6d9-4632-bda2-07735eb99ba4
                 stepCounter: a14b8996-8ba2-4333-88a0-bafb905f786a
             transform: ""
+          - columnReferences: []
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 7013f9ae-9fec-4054-8175-747d1ce6bb7f
@@ -44,6 +46,8 @@ operation:
           - columnReferences:
               - columnCounter: 6bbb3817-8b67-4c21-8f9b-27f523f6fbb6
                 stepCounter: a14b8996-8ba2-4333-88a0-bafb905f786a
+            transform: ""
+          - columnReferences: []
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -59,6 +63,8 @@ operation:
               - columnCounter: 41549c8f-0e5d-4489-9428-0e9f839098e6
                 stepCounter: a14b8996-8ba2-4333-88a0-bafb905f786a
             transform: ""
+          - columnReferences: []
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: d7f0d46f-698f-4c30-840c-f20f109a5c24
@@ -72,6 +78,8 @@ operation:
           - columnReferences:
               - columnCounter: 0e7a5b7f-525d-4ede-bd25-57984a80f27c
                 stepCounter: a14b8996-8ba2-4333-88a0-bafb905f786a
+            transform: ""
+          - columnReferences: []
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -87,6 +95,8 @@ operation:
               - columnCounter: 8859a49f-2178-426d-9a1d-f20906a4c7f4
                 stepCounter: a14b8996-8ba2-4333-88a0-bafb905f786a
             transform: ""
+          - columnReferences: []
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 1d48a5d2-16bc-44f0-92aa-502460315724
@@ -100,6 +110,8 @@ operation:
           - columnReferences:
               - columnCounter: f92b91ce-2d3c-4507-aba6-7f4e6d0f4841
                 stepCounter: a14b8996-8ba2-4333-88a0-bafb905f786a
+            transform: ""
+          - columnReferences: []
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -115,6 +127,8 @@ operation:
               - columnCounter: 2a701609-6ac0-4809-b6dc-de1ce467e31d
                 stepCounter: a14b8996-8ba2-4333-88a0-bafb905f786a
             transform: ""
+          - columnReferences: []
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 092a8a75-aa91-4080-9783-3c5a28ada709
@@ -129,6 +143,8 @@ operation:
               - columnCounter: aac1a994-012d-4173-8571-dcdc2dc64394
                 stepCounter: a14b8996-8ba2-4333-88a0-bafb905f786a
             transform: ""
+          - columnReferences: []
+            transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
@@ -141,6 +157,14 @@ operation:
         join:
           joinCondition: FROM {{ ref('SOURCE', 'CUSTOMER') }} "CUSTOMER"
         name: STG_CUSTOMER
+        noLinkRefs: []
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies: []
+        join:
+          joinCondition: ""
+        name: NEW_SOURCE
         noLinkRefs: []
   name: STG_CUSTOMER
   overrideSQL: false
