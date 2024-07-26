@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "7"
+mappingDefinitions:
+  DESTINATION:
+    database: BEN_EDW
+    schema: PSTAGING_OAUTH_ENV
+  SOURCE:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: TPCH_SF001
+name: Oauth ENV
+type: Environment
