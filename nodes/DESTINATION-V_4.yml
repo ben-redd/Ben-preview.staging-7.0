@@ -112,6 +112,26 @@ operation:
               - columnCounter: 9db1dd07-f94e-410f-82fe-ede2881ec531
                 stepCounter: 2333c42b-b7aa-45a2-b1ab-0ac744b4551f
             transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ac56aed9-5ecd-47db-b0d7-db971b252340
+          stepCounter: c9bfc885-7fca-4c55-b217-858d31bdb104
+        config: {}
+        dataType: NUMBER
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: S_TEST2
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: ""
+        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
