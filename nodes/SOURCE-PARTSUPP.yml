@@ -3,7 +3,6 @@ id: ec4faa2b-7b9a-4212-b126-235adce4742a
 name: PARTSUPP
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: ""
   locationName: SOURCE
@@ -84,12 +83,9 @@ operation:
         nullable: true
         primaryKey: false
         uniqueKey: false
-    join:
-      joinCondition: FROM {{ ref('SOURCE', 'PARTSUPP') }}
   name: PARTSUPP
   schema: ""
   sqlType: Source
-  table: PARTSUPP
   type: sourceInput
   version: 1
 type: Node

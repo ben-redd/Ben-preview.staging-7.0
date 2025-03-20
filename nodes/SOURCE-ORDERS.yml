@@ -3,7 +3,6 @@ id: dba2520f-6862-41a6-8e5d-c0aa675176c5
 name: ORDERS
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: |-
     Orders are not present for all customers. In fact, one-third of the customers do not have any order in
@@ -147,12 +146,9 @@ operation:
         nullable: false
         primaryKey: false
         uniqueKey: false
-    join:
-      joinCondition: FROM {{ ref('SOURCE', 'ORDERS') }}
   name: ORDERS
   schema: ""
   sqlType: Source
-  table: ORDERS
   type: sourceInput
   version: 1
 type: Node
